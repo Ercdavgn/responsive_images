@@ -1,0 +1,35 @@
+/*main style*/
+/* -- small -- */
+/*@media screen and (max-width: 600px)*/
+body {
+    text-align:center;
+}
+ul li{
+    list-style:none;
+}
+ul {
+    padding-left:0;
+    margin:0;
+}
+picture img{
+    width:90%;
+    padding:4% 0;
+}
+footer {
+    padding-top:1px;
+    text-align:left;
+    clear:both;
+}
+
+/* media queries */
+/* -- medium -- */
+@media screen and (min-width: 600px){
+    ul li{
+        float:left;
+    }
+    li {width: 50%;}
+}
+/* -- large -- */
+@media screen and (min-width: 1200px){
+    li {width: 25%;}
+}
